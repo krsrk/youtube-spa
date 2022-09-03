@@ -1,4 +1,17 @@
-# youtube-app-spa
+# Youtube Video List SPA
+
+## Prerequisites
+```
+- Git
+- Node 
+- You have to deploy the api in local or in Aws Lambda: 
+  Repository: https://github.com/krsrk/youtube-node-app
+```
+
+## Configure the endpoints urls
+```
+nano src/config.js
+```
 
 ## Project setup
 ```
@@ -14,6 +27,7 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### To browser and test the project
+```
+http://localhost:8080
+```
